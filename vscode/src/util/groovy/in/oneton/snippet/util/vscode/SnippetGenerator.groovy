@@ -14,6 +14,8 @@ class SnippetGenerator {
     static void generateAll(String snippetsRelPath, Function<String, String> templateStrTransformer) {
         List<Snippet> snippets = bootstrapDescriptionToSnippet(snippetsRelPath + "/bootstrap/", templateStrTransformer)
 
+        // BulmaCSS
+        snippets.addAll(bulmaDescriptionToSnippet(snippetsRelPath + "/bulma/", templateStrTransformer))
         // Font Awesome 4
         snippets.addAll(fontAwesome4DescriptionToSnippet(snippetsRelPath + "/font-awesome4-icons.yml", templateStrTransformer))
 

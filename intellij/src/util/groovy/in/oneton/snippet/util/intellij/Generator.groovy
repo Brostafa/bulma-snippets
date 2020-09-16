@@ -23,6 +23,10 @@ class Generator {
         File snippetXml = persistSnippetsAsTemplateXml(snippets, 'Bootstrap 4', "${resourcesPath}/bootstrap.xml")
         println "Regenerated bootstrap template file. Saved to ${snippetXml.absolutePath}"
 
+        snippets = bulmaDescriptionToSnippet(snippetsRelPath + "/bulma")
+        snippetXml = persistSnippetsAsTemplateXml(snippets, 'Bulma CSS', "${resourcesPath}/bulma.xml")
+        println "Regenerated Bulma template file. Saved to ${snippetXml.absolutePath}"
+
         snippets = fontAwesome4DescriptionToSnippet(snippetsRelPath + "/font-awesome4-icons.yml")
         snippetXml = persistSnippetsAsTemplateXml(snippets, 'Font Awesome 4', "${resourcesPath}/font-awesome4.xml")
         println "Regenerated Font Awesome 4 template file. Saved to ${snippetXml.absolutePath}"

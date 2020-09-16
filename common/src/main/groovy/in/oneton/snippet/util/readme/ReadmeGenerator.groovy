@@ -28,6 +28,9 @@ class ReadmeGenerator {
         // lets replace bootstrap 4 placeholder
         readmeContent = replacePlaceholderWithSnippets(readmeContent, /@@@GENERATED_BOOTSTRAP_SNIPPETS@@@/, getSnippetResources("${snippetsRelPath}/bootstrap"), false, 'b4')
 
+        // lets replace bulma placeholder
+        readmeContent = replacePlaceholderWithSnippets(readmeContent, /@@@GENERATED_BULMA_SNIPPETS@@@/, getSnippetResources("${snippetsRelPath}/bulma"), false, 'bm')
+
         // lets replace fontawesome 4 placeholder
         List<Snippet> fontAwesome4Snippets = fontAwesome4DescriptionToSnippet(snippetsRelPath + "/font-awesome4-icons.yml", templateStrTransformer)
         readmeContent = applyDescriptionToSnippet(fontAwesome4Snippets, readmeContent, /@@@GENERATED_FONT_AWESOME4_ICON_SNIPPETS@@@/)

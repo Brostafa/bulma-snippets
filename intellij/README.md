@@ -60,6 +60,312 @@ See [here](CHANGELOG.md)
 
 Here are available live templates
 
+### Bulma snippets
+
+#### Bootstrap master template
+
+Trigger | Description
+--- | ---
+bm-**$** | Bootstrap master template
+
+#### Alert
+
+Trigger | Description
+--- | ---
+bm-**alert-additional-content** | Alert additional content
+bm-**alert-closable** | Alert closable
+bm-**alert-default** | Alert default
+bm-**alert-dismissible** | Alert dismissible
+bm-**alert-link** | Alert link
+
+#### Badge
+
+Trigger | Description
+--- | ---
+bm-**badge-button** | Badge button
+bm-**badge-default** | Badge default
+bm-**badge-heading** | Badge heading
+bm-**badge-link** | Badge link
+bm-**badge-pill** | Badge pill
+
+#### Bgroup
+
+Trigger | Description
+--- | ---
+bm-**bgroup-default** | Bgroup default
+bm-**bgroup-dropdown-vertical** | Bgroup dropdown vertical
+bm-**bgroup-dropdown** | Bgroup dropdown
+bm-**bgroup-size** | Bgroup size
+bm-**bgroup-toolbar** | Bgroup toolbar
+
+#### Breadcrumb
+
+Trigger | Description
+--- | ---
+bm-**breadcrumb-alignment** | Breadcrumb alignment
+bm-**breadcrumb-default** | Breadcrumb default
+bm-**breadcrumb-icon** | Breadcrumb icon
+bm-**breadcrumb-separator** | Breadcrumb separator
+bm-**breadcrumb-sized** | Breadcrumb sized
+
+#### Button
+
+Trigger | Description
+--- | ---
+bm-**button-a** | Button a
+bm-**button-block** | Button block
+bm-**button-checkbox** | Button checkbox
+bm-**button-default** | Button default
+bm-**button-disabled-a** | Button disabled a
+bm-**button-input** | Button input
+bm-**button-outline** | Button outline
+bm-**button-radio** | Button radio
+bm-**button-sizes** | Button sizes
+bm-**button-toggle** | Button toggle
+
+#### Card
+
+Trigger | Description
+--- | ---
+bm-**card-action** | Card action
+bm-**card-default** | Card default
+bm-**card-quote** | Card quote
+
+#### Carousel
+
+Trigger | Description
+--- | ---
+bm-**carousel-caption** | Carousel caption
+bm-**carousel-default** | Carousel default
+
+#### Collapse
+
+Trigger | Description
+--- | ---
+bm-**collapse-accordion** | Collapse accordion
+bm-**collapse-button** | Collapse button
+bm-**collapse-default** | Collapse default
+
+#### Dropdown
+
+Trigger | Description
+--- | ---
+bm-**dropdown-alignment** | Dropdown alignment
+bm-**dropdown-content** | Dropdown content
+bm-**dropdown-default** | Dropdown default
+bm-**dropdown-hover** | Dropdown hover
+bm-**dropdown-up** | Dropdown up
+
+#### Form
+
+Trigger | Description
+--- | ---
+bm-**form-checkbox-custom** | Form checkbox custom
+bm-**form-checkbox-inline** | Form checkbox inline
+bm-**form-checkbox-nolabel** | Form checkbox nolabel
+bm-**form-checkbox** | Form checkbox
+bm-**form-email** | Form email
+bm-**form-file-custom** | Form file custom
+bm-**form-file** | Form file
+bm-**form-grid** | Form grid
+bm-**form-group-text** | Form group text
+bm-**form-group** | Form group
+bm-**form-help-text-inline** | Form help text inline
+bm-**form-help-text** | Form help text
+bm-**form-hidden** | Form hidden
+bm-**form-inline** | Form inline
+bm-**form-input-sizing** | Form input sizing
+bm-**form-input-text** | Form input text
+bm-**form-input** | Form input
+bm-**form-multi-select-custom** | Form multi select custom
+bm-**form-multi-select** | Form multi select
+bm-**form-multil-select-sizing** | Form multil select sizing
+bm-**form-password** | Form password
+bm-**form-radio-custom** | Form radio custom
+bm-**form-radio-inline** | Form radio inline
+bm-**form-radio-nolabel** | Form radio nolabel
+bm-**form-radio** | Form radio
+bm-**form-reset** | Form reset
+bm-**form-select-custom** | Form select custom
+bm-**form-select-sizing** | Form select sizing
+bm-**form-select** | Form select
+bm-**form-submit** | Form submit
+bm-**form-textarea** | Form textarea
+bm-**form-validation** | Form validation
+
+#### Igroup
+
+Trigger | Description
+--- | ---
+bm-**igroup-button** | Igroup button
+bm-**igroup-checkbox-radio** | Igroup checkbox radio
+bm-**igroup-dropdown-segmented** | Igroup dropdown segmented
+bm-**igroup-dropdown** | Igroup dropdown
+bm-**igroup-size** | Igroup size
+bm-**igroup-text-both** | Igroup text both
+bm-**igroup-text-prefix** | Igroup text prefix
+bm-**igroup-text-sufix** | Igroup text sufix
+
+#### Jumbotron
+
+Trigger | Description
+--- | ---
+bm-**jumbotron-default** | Jumbotron default
+bm-**jumbotron-fluid** | Jumbotron fluid
+
+#### List
+
+Trigger | Description
+--- | ---
+bm-**list-a** | List a
+bm-**list-badge** | List badge
+bm-**list-button** | List button
+bm-**list-colors** | List colors
+bm-**list-custom** | List custom
+bm-**list-default** | List default
+
+#### Components
+
+Trigger | Description
+--- | ---
+bm-**components-menu** | Components menu
+
+#### Message
+
+Trigger | Description
+--- | ---
+bm-**message-bodyonly** | Message bodyonly
+bm-**message-default** | Message default
+bm-**message-sized** | Message sized
+
+#### Modal
+
+Trigger | Description
+--- | ---
+bm-**modal-card** | Modal card
+bm-**modal-default** | Modal default
+bm-**modal-image** | Modal image
+
+#### Nav
+
+Trigger | Description
+--- | ---
+bm-**nav-a** | Nav a
+bm-**nav-complete** | Nav complete
+bm-**nav-tabs-pills-a-variation** | Nav tabs pills a variation
+bm-**nav-tabs-pills-dropdown** | Nav tabs pills dropdown
+bm-**nav-tabs-pills-ul-variation** | Nav tabs pills ul variation
+bm-**nav-ul** | Nav ul
+
+#### Navbar
+
+Trigger | Description
+--- | ---
+bm-**navbar-default** | Navbar default
+bm-**navbar-jquery-script** | Navbar jquery script
+bm-**navbar-minimal** | Navbar minimal
+bm-**navbar-vanilia-script** | Navbar vanilia script
+
+#### Pagination
+
+Trigger | Description
+--- | ---
+bm-**pagination-default** | Pagination default
+bm-**pagination-round** | Pagination round
+bm-**pagination-sized** | Pagination sized
+
+#### Popover
+
+Trigger | Description
+--- | ---
+bm-**popover-default** | Popover default
+bm-**popover-direction** | Popover direction
+bm-**popover-dismissable** | Popover dismissable
+
+#### Progress
+
+Trigger | Description
+--- | ---
+bm-**progress-colored** | Progress colored
+bm-**progress-default** | Progress default
+bm-**progress-ie9** | Progress ie9
+bm-**progress-striped** | Progress striped
+
+#### Scrollspy
+
+Trigger | Description
+--- | ---
+bm-**scrollspy-default** | Scrollspy default
+
+#### Tooltip
+
+Trigger | Description
+--- | ---
+bm-**tooltip-default** | Tooltip default
+
+#### Figure
+
+Trigger | Description
+--- | ---
+bm-**figure-default** | Figure default
+
+#### Image
+
+Trigger | Description
+--- | ---
+bm-**image-default** | Image default
+
+#### Table
+
+Trigger | Description
+--- | ---
+bm-**table-default** | Table default
+bm-**table-special** | Table special
+
+#### Typography
+
+Trigger | Description
+--- | ---
+bm-**typography-blockquote-reverse** | Typography blockquote reverse
+bm-**typography-blockquote** | Typography blockquote
+bm-**typography-description-list** | Typography description list
+bm-**typography-display-heading** | Typography display heading
+bm-**typography-lead** | Typography lead
+bm-**typography-list-inline** | Typography list inline
+bm-**typography-list-unstyled** | Typography list unstyled
+bm-**typography-muted-text** | Typography muted text
+
+#### Grid
+
+Trigger | Description
+--- | ---
+bm-**grid-column** | Grid column
+bm-**grid-columns** | Grid columns
+bm-**grid-container-fluid** | Grid container fluid
+bm-**grid-container** | Grid container
+bm-**grid-default** | Grid default
+
+#### Media
+
+Trigger | Description
+--- | ---
+bm-**media-bottom** | Media bottom
+bm-**media-default** | Media default
+bm-**media-list** | Media list
+bm-**media-middle** | Media middle
+bm-**media-nesting** | Media nesting
+bm-**media-right** | Media right
+bm-**media-top** | Media top
+
+#### Responsive
+
+Trigger | Description
+--- | ---
+bm-**responsive-hide-down** | Responsive hide down
+bm-**responsive-hide-up** | Responsive hide up
+bm-**responsive-print-show** | Responsive print show
+
+
 ### Bootstrap 4 snippets
 
 #### Bootstrap master template

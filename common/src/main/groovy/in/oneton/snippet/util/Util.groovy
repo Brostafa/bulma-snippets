@@ -114,6 +114,32 @@ final class Util {
         snippets
     }
 
+    static List<Snippet> bulmaDescriptionToSnippet(String bulmaSnippetDirRelPath, Function<String, String> templateStrTransformer = { val -> val }) {
+        List<Snippet> snippets = []
+
+        def templateStr
+        def triggerPattern
+        def helpMsg
+
+        // BulmaCSS
+        getSnippetResources(bulmaSnippetDirRelPath).forEach({ snippetResource ->
+            String contentUntouched = snippetResource.text
+
+            String fileParent = new File(snippetResource.parent).name
+            String fileBaseName = snippetResource.name.take(snippetResource.name.lastIndexOf('.'))
+
+            templateStr = contentUntouched
+
+            triggerPattern = fileBaseName != '$' ? "bm-${fileParent}-${fileBaseName}" : 'bm-$'
+            helpMsg = fileBaseName != '$' ? "${fileParent} ${fileBaseName}".replace(/-/, ' ') : 'Bulma master template'
+
+            def snippet = Snippet.builder().trigger(triggerPattern).template(templateStrTransformer.apply(templateStr.contains('$END$') ? templateStr.trim() : "${templateStr.trim()}\$END\$")).description(helpMsg).scope('').build()
+            snippets << snippet
+        })
+
+        snippets
+    }
+
     static void addSnippet(List<Snippet> descriptionToSnippetTarget, String triggerPattern, String templateStr, String helpMsg, Function<String, String> templateStrTransformer) {
         descriptionToSnippetTarget << Snippet.builder().trigger(triggerPattern).template(templateStrTransformer.apply(templateStr.contains('$END$') ? templateStr.trim() : "${templateStr.trim()}\$END\$")).description(helpMsg).scope('').build()
     }

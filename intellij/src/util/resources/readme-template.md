@@ -60,6 +60,9 @@ See [here](CHANGELOG.md)
 
 Here are available live templates
 
+### Bulma snippets
+@@@GENERATED_BULMA_SNIPPETS@@@
+
 ### Bootstrap 4 snippets
 @@@GENERATED_BOOTSTRAP_SNIPPETS@@@
 
