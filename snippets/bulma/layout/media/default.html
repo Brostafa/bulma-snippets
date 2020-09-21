@@ -1,9 +1,18 @@
-<div class="media">
-	<a class="d-flex" href="${1:#}">
-		<img src="$2" alt="$3">
-	</a>
-	<div class="media-body">
-		<h5>${4:Media heading}</h5>
-		${5:Media text}
+<article class="media">
+	<!-- Left -->
+  <figure class="media-left">
+    <p class="image is-64x64">
+			<img src="${1:https://bulma.io/images/placeholders/128x128.png}">
+			${2:Left content}
+    </p>
+  </figure>
+  <div class="media-content">
+    <div class="content">
+			${3:Content}
+    </div>
 	</div>
-</div>
+	<!-- Right -->
+  <div class="media-right">
+		${2:Right content}
+  </div>
+</article>
