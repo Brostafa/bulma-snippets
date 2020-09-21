@@ -26,10 +26,10 @@ class ReadmeGenerator {
         }
 
         // lets replace bootstrap 4 placeholder
-        readmeContent = replacePlaceholderWithSnippets(readmeContent, /@@@GENERATED_BOOTSTRAP_SNIPPETS@@@/, getSnippetResources("${snippetsRelPath}/bootstrap"), false, 'b4')
+        readmeContent = replacePlaceholderWithSnippets(readmeContent, /@@@GENERATED_BOOTSTRAP_SNIPPETS@@@/, getSnippetResources("${snippetsRelPath}/bootstrap"), false, 'b4', 'Bootstrap')
 
         // lets replace bulma placeholder
-        readmeContent = replacePlaceholderWithSnippets(readmeContent, /@@@GENERATED_BULMA_SNIPPETS@@@/, getSnippetResources("${snippetsRelPath}/bulma"), false, 'bm')
+        readmeContent = replacePlaceholderWithSnippets(readmeContent, /@@@GENERATED_BULMA_SNIPPETS@@@/, getSnippetResources("${snippetsRelPath}/bulma"), false, 'bm', 'Bulma')
 
         // lets replace fontawesome 4 placeholder
         List<Snippet> fontAwesome4Snippets = fontAwesome4DescriptionToSnippet(snippetsRelPath + "/font-awesome4-icons.yml", templateStrTransformer)
@@ -63,7 +63,7 @@ class ReadmeGenerator {
         readmeContent
     }
 
-    static String replacePlaceholderWithSnippets(String readmeContent, String placeholderToReplace, List<File> snippetResources, boolean skipParentDirNameFromTrigger, String prefix) {
+    static String replacePlaceholderWithSnippets(String readmeContent, String placeholderToReplace, List<File> snippetResources, boolean skipParentDirNameFromTrigger, String prefix, String libraryName) {
         Map<String, List<SnippetHelp>> folderToSnippets = new LinkedHashMap<>()
         snippetResources.each { snippetResource ->
             String fileBaseName = snippetResource.name.take(snippetResource.name.lastIndexOf('.'))
@@ -86,9 +86,9 @@ class ReadmeGenerator {
             } else {
                 def snippetHelp = SnippetHelp.builder()
                     .trigger("${prefix}-**\$**")
-                    .description('Bootstrap master template')
+                    .description("${libraryName} master template")
                     .build()
-                folderToSnippets.put('Bootstrap master template', Arrays.asList(snippetHelp))
+                folderToSnippets.put("${libraryName} master template", Arrays.asList(snippetHelp))
             }
         }
 

@@ -62,274 +62,350 @@ Here are available live templates
 
 ### Bulma snippets
 
-#### Bootstrap master template
+#### Bulma master template
 
 Trigger | Description
 --- | ---
-bm-**$** | Bootstrap master template
+bm-**$** | Bulma master template
 
-#### ..snippetsbulmacomponentsbreadcrumb
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmacomponentsbreadcrumb-alignment** | ..snippetsbulmacomponentsbreadcrumb alignment
-bm-**..snippetsbulmacomponentsbreadcrumb-default** | ..snippetsbulmacomponentsbreadcrumb default
-bm-**..snippetsbulmacomponentsbreadcrumb-icon** | ..snippetsbulmacomponentsbreadcrumb icon
-bm-**..snippetsbulmacomponentsbreadcrumb-separator** | ..snippetsbulmacomponentsbreadcrumb separator
-bm-**..snippetsbulmacomponentsbreadcrumb-sized** | ..snippetsbulmacomponentsbreadcrumb sized
-
-#### ..snippetsbulmacomponentscard
+#### Columns
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmacomponentscard-action** | ..snippetsbulmacomponentscard action
-bm-**..snippetsbulmacomponentscard-default** | ..snippetsbulmacomponentscard default
-bm-**..snippetsbulmacomponentscard-quote** | ..snippetsbulmacomponentscard quote
+bm-**columns-alignment** | Columns alignment
+bm-**columns-default** | Columns default
+bm-**columns-gap** | Columns gap
+bm-**columns-narrow** | Columns narrow
+bm-**columns-nesting** | Columns nesting
+bm-**columns-offset** | Columns offset
 
-#### ..snippetsbulmacomponentsdropdown
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmacomponentsdropdown-alignment** | ..snippetsbulmacomponentsdropdown alignment
-bm-**..snippetsbulmacomponentsdropdown-content** | ..snippetsbulmacomponentsdropdown content
-bm-**..snippetsbulmacomponentsdropdown-default** | ..snippetsbulmacomponentsdropdown default
-bm-**..snippetsbulmacomponentsdropdown-hover** | ..snippetsbulmacomponentsdropdown hover
-bm-**..snippetsbulmacomponentsdropdown-up** | ..snippetsbulmacomponentsdropdown up
-
-#### ..snippetsbulmacomponentsmenu
+#### Breadcrumb
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmacomponentsmenu-default** | ..snippetsbulmacomponentsmenu default
+bm-**breadcrumb-alignment** | Breadcrumb alignment
+bm-**breadcrumb-default** | Breadcrumb default
+bm-**breadcrumb-icon** | Breadcrumb icon
+bm-**breadcrumb-separator** | Breadcrumb separator
+bm-**breadcrumb-sized** | Breadcrumb sized
 
-#### ..snippetsbulmacomponentsmessage
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmacomponentsmessage-bodyonly** | ..snippetsbulmacomponentsmessage bodyonly
-bm-**..snippetsbulmacomponentsmessage-default** | ..snippetsbulmacomponentsmessage default
-bm-**..snippetsbulmacomponentsmessage-sized** | ..snippetsbulmacomponentsmessage sized
-
-#### ..snippetsbulmacomponentsmodal
+#### Card
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmacomponentsmodal-card** | ..snippetsbulmacomponentsmodal card
-bm-**..snippetsbulmacomponentsmodal-default** | ..snippetsbulmacomponentsmodal default
-bm-**..snippetsbulmacomponentsmodal-image** | ..snippetsbulmacomponentsmodal image
+bm-**card-action** | Card action
+bm-**card-default** | Card default
+bm-**card-quote** | Card quote
 
-#### ..snippetsbulmacomponentsnavbar
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmacomponentsnavbar-default** | ..snippetsbulmacomponentsnavbar default
-bm-**..snippetsbulmacomponentsnavbar-jquery-script** | ..snippetsbulmacomponentsnavbar jquery script
-bm-**..snippetsbulmacomponentsnavbar-minimal** | ..snippetsbulmacomponentsnavbar minimal
-bm-**..snippetsbulmacomponentsnavbar-vanilia-script** | ..snippetsbulmacomponentsnavbar vanilia script
-
-#### ..snippetsbulmacomponentspagination
+#### Dropdown
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmacomponentspagination-alignment** | ..snippetsbulmacomponentspagination alignment
-bm-**..snippetsbulmacomponentspagination-default** | ..snippetsbulmacomponentspagination default
-bm-**..snippetsbulmacomponentspagination-disable** | ..snippetsbulmacomponentspagination disable
-bm-**..snippetsbulmacomponentspagination-round** | ..snippetsbulmacomponentspagination round
-bm-**..snippetsbulmacomponentspagination-sized** | ..snippetsbulmacomponentspagination sized
+bm-**dropdown-alignment** | Dropdown alignment
+bm-**dropdown-content** | Dropdown content
+bm-**dropdown-default** | Dropdown default
+bm-**dropdown-hover** | Dropdown hover
+bm-**dropdown-up** | Dropdown up
 
-#### ..snippetsbulmacomponentspanel
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmacomponentspanel-colored** | ..snippetsbulmacomponentspanel colored
-bm-**..snippetsbulmacomponentspanel-default** | ..snippetsbulmacomponentspanel default
-
-#### ..snippetsbulmacomponentstabs
+#### Components
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmacomponentstabs-alignment** | ..snippetsbulmacomponentstabs alignment
-bm-**..snippetsbulmacomponentstabs-combine** | ..snippetsbulmacomponentstabs combine
-bm-**..snippetsbulmacomponentstabs-default** | ..snippetsbulmacomponentstabs default
-bm-**..snippetsbulmacomponentstabs-icon** | ..snippetsbulmacomponentstabs icon
-bm-**..snippetsbulmacomponentstabs-size** | ..snippetsbulmacomponentstabs size
-bm-**..snippetsbulmacomponentstabs-style** | ..snippetsbulmacomponentstabs style
-bm-**..snippetsbulmacomponentstabs-toggle** | ..snippetsbulmacomponentstabs toggle
+bm-**components-menu** | Components menu
 
-#### ..snippetsbulmaelementsblock
+#### Message
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsblock-default** | ..snippetsbulmaelementsblock default
-bm-**..snippetsbulmaelementsblock-normal** | ..snippetsbulmaelementsblock normal
+bm-**message-bodyonly** | Message bodyonly
+bm-**message-default** | Message default
+bm-**message-sized** | Message sized
 
-#### ..snippetsbulmaelementsbox
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaelementsbox-default** | ..snippetsbulmaelementsbox default
-
-#### ..snippetsbulmaelementsbutton
+#### Modal
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsbutton-addon** | ..snippetsbulmaelementsbutton addon
-bm-**..snippetsbulmaelementsbutton-colored** | ..snippetsbulmaelementsbutton colored
-bm-**..snippetsbulmaelementsbutton-default** | ..snippetsbulmaelementsbutton default
-bm-**..snippetsbulmaelementsbutton-disabled** | ..snippetsbulmaelementsbutton disabled
-bm-**..snippetsbulmaelementsbutton-font-size** | ..snippetsbulmaelementsbutton font size
-bm-**..snippetsbulmaelementsbutton-fontawesome-icon** | ..snippetsbulmaelementsbutton fontawesome icon
-bm-**..snippetsbulmaelementsbutton-group-addons** | ..snippetsbulmaelementsbutton group addons
-bm-**..snippetsbulmaelementsbutton-group** | ..snippetsbulmaelementsbutton group
-bm-**..snippetsbulmaelementsbutton-input** | ..snippetsbulmaelementsbutton input
-bm-**..snippetsbulmaelementsbutton-inverted** | ..snippetsbulmaelementsbutton inverted
-bm-**..snippetsbulmaelementsbutton-light** | ..snippetsbulmaelementsbutton light
-bm-**..snippetsbulmaelementsbutton-list-alignment** | ..snippetsbulmaelementsbutton list alignment
-bm-**..snippetsbulmaelementsbutton-rounded** | ..snippetsbulmaelementsbutton rounded
-bm-**..snippetsbulmaelementsbutton-selected-list** | ..snippetsbulmaelementsbutton selected list
-bm-**..snippetsbulmaelementsbutton-size** | ..snippetsbulmaelementsbutton size
-bm-**..snippetsbulmaelementsbutton-states** | ..snippetsbulmaelementsbutton states
-bm-**..snippetsbulmaelementsbutton-static** | ..snippetsbulmaelementsbutton static
-bm-**..snippetsbulmaelementsbutton-style** | ..snippetsbulmaelementsbutton style
-bm-**..snippetsbulmaelementsbutton-subset** | ..snippetsbulmaelementsbutton subset
+bm-**modal-card** | Modal card
+bm-**modal-default** | Modal default
+bm-**modal-image** | Modal image
 
-#### ..snippetsbulmaelementsdelete
+#### Navbar
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsdelete-combinations** | ..snippetsbulmaelementsdelete combinations
-bm-**..snippetsbulmaelementsdelete-default** | ..snippetsbulmaelementsdelete default
-bm-**..snippetsbulmaelementsdelete-sizes** | ..snippetsbulmaelementsdelete sizes
+bm-**navbar-default** | Navbar default
+bm-**navbar-jquery-script** | Navbar jquery script
+bm-**navbar-minimal** | Navbar minimal
+bm-**navbar-vanilia-script** | Navbar vanilia script
 
-#### ..snippetsbulmaelementsicon
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaelementsicon-colored** | ..snippetsbulmaelementsicon colored
-bm-**..snippetsbulmaelementsicon-default** | ..snippetsbulmaelementsicon default
-
-#### ..snippetsbulmaelementsimage
+#### Pagination
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsimage-default** | ..snippetsbulmaelementsimage default
-bm-**..snippetsbulmaelementsimage-fixed-square-img** | ..snippetsbulmaelementsimage fixed square img
-bm-**..snippetsbulmaelementsimage-ratio-frame-img** | ..snippetsbulmaelementsimage ratio frame img
-bm-**..snippetsbulmaelementsimage-ratio-img** | ..snippetsbulmaelementsimage ratio img
-bm-**..snippetsbulmaelementsimage-retina-img** | ..snippetsbulmaelementsimage retina img
-bm-**..snippetsbulmaelementsimage-rounded-img** | ..snippetsbulmaelementsimage rounded img
+bm-**pagination-alignment** | Pagination alignment
+bm-**pagination-default** | Pagination default
+bm-**pagination-disable** | Pagination disable
+bm-**pagination-round** | Pagination round
+bm-**pagination-sized** | Pagination sized
 
-#### ..snippetsbulmaelementslist
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaelementslist-default** | ..snippetsbulmaelementslist default
-
-#### ..snippetsbulmaelementsnotification
+#### Panel
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsnotification-colored-notification** | ..snippetsbulmaelementsnotification colored notification
-bm-**..snippetsbulmaelementsnotification-default** | ..snippetsbulmaelementsnotification default
-bm-**..snippetsbulmaelementsnotification-light-notification** | ..snippetsbulmaelementsnotification light notification
-bm-**..snippetsbulmaelementsnotification-space-noritifation** | ..snippetsbulmaelementsnotification space noritifation
+bm-**panel-colored** | Panel colored
+bm-**panel-default** | Panel default
 
-#### ..snippetsbulmaelementsprogress bar
+#### Tabs
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsprogress-bar-colored** | ..snippetsbulmaelementsprogress bar colored
-bm-**..snippetsbulmaelementsprogress-bar-default** | ..snippetsbulmaelementsprogress bar default
-bm-**..snippetsbulmaelementsprogress-bar-indeterminate** | ..snippetsbulmaelementsprogress bar indeterminate
-bm-**..snippetsbulmaelementsprogress-bar-sized** | ..snippetsbulmaelementsprogress bar sized
+bm-**tabs-alignment** | Tabs alignment
+bm-**tabs-combine** | Tabs combine
+bm-**tabs-default** | Tabs default
+bm-**tabs-icon** | Tabs icon
+bm-**tabs-sized** | Tabs sized
+bm-**tabs-style** | Tabs style
+bm-**tabs-toggle** | Tabs toggle
 
-#### ..snippetsbulmaelementstable
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaelementstable-default** | ..snippetsbulmaelementstable default
-bm-**..snippetsbulmaelementstable-table-container** | ..snippetsbulmaelementstable table container
-
-#### ..snippetsbulmaelementsTags
+#### Block
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementsTags-attach-delete** | ..snippetsbulmaelementsTags attach delete
-bm-**..snippetsbulmaelementsTags-attach** | ..snippetsbulmaelementsTags attach
-bm-**..snippetsbulmaelementsTags-blog** | ..snippetsbulmaelementsTags blog
-bm-**..snippetsbulmaelementsTags-colored** | ..snippetsbulmaelementsTags colored
-bm-**..snippetsbulmaelementsTags-combined** | ..snippetsbulmaelementsTags combined
-bm-**..snippetsbulmaelementsTags-default** | ..snippetsbulmaelementsTags default
-bm-**..snippetsbulmaelementsTags-delete** | ..snippetsbulmaelementsTags delete
-bm-**..snippetsbulmaelementsTags-gather-attach** | ..snippetsbulmaelementsTags gather attach
-bm-**..snippetsbulmaelementsTags-group** | ..snippetsbulmaelementsTags group
-bm-**..snippetsbulmaelementsTags-light** | ..snippetsbulmaelementsTags light
-bm-**..snippetsbulmaelementsTags-rounded** | ..snippetsbulmaelementsTags rounded
-bm-**..snippetsbulmaelementsTags-size** | ..snippetsbulmaelementsTags size
-bm-**..snippetsbulmaelementsTags-spaced** | ..snippetsbulmaelementsTags spaced
-bm-**..snippetsbulmaelementsTags-subset-sized** | ..snippetsbulmaelementsTags subset sized
+bm-**block-default** | Block default
+bm-**block-normal** | Block normal
 
-#### ..snippetsbulmaelementstitle subtitle
+#### Box
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaelementstitle-subtitle-combination** | ..snippetsbulmaelementstitle subtitle combination
-bm-**..snippetsbulmaelementstitle-subtitle-default** | ..snippetsbulmaelementstitle subtitle default
-bm-**..snippetsbulmaelementstitle-subtitle-title-size** | ..snippetsbulmaelementstitle subtitle title size
+bm-**box-default** | Box default
 
-#### ..snippetsbulmaformcheckbox
+#### Button
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaformcheckbox-default** | ..snippetsbulmaformcheckbox default
+bm-**button-addon** | Button addon
+bm-**button-colored** | Button colored
+bm-**button-default** | Button default
+bm-**button-disabled** | Button disabled
+bm-**button-font-size** | Button font size
+bm-**button-fontawesome-icon** | Button fontawesome icon
+bm-**button-group-addons** | Button group addons
+bm-**button-group** | Button group
+bm-**button-input** | Button input
+bm-**button-inverted** | Button inverted
+bm-**button-light** | Button light
+bm-**button-list-alignment** | Button list alignment
+bm-**button-rounded** | Button rounded
+bm-**button-selected-list** | Button selected list
+bm-**button-sized** | Button sized
+bm-**button-states** | Button states
+bm-**button-static** | Button static
+bm-**button-style** | Button style
+bm-**button-subset** | Button subset
 
-#### ..snippetsbulmaformfile
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaformfile-default** | ..snippetsbulmaformfile default
-
-#### ..snippetsbulmaforminput
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaforminput-addon** | ..snippetsbulmaforminput addon
-bm-**..snippetsbulmaforminput-addons-alignment** | ..snippetsbulmaforminput addons alignment
-bm-**..snippetsbulmaforminput-colored-btn** | ..snippetsbulmaforminput colored btn
-bm-**..snippetsbulmaforminput-default** | ..snippetsbulmaforminput default
-bm-**..snippetsbulmaforminput-disabled** | ..snippetsbulmaforminput disabled
-bm-**..snippetsbulmaforminput-drop-down** | ..snippetsbulmaforminput drop down
-bm-**..snippetsbulmaforminput-expanded-item-group** | ..snippetsbulmaforminput expanded item group
-bm-**..snippetsbulmaforminput-expanded** | ..snippetsbulmaforminput expanded
-bm-**..snippetsbulmaforminput-group-alignment** | ..snippetsbulmaforminput group alignment
-bm-**..snippetsbulmaforminput-group** | ..snippetsbulmaforminput group
-bm-**..snippetsbulmaforminput-grouped-multiline** | ..snippetsbulmaforminput grouped multiline
-bm-**..snippetsbulmaforminput-help-text** | ..snippetsbulmaforminput help text
-bm-**..snippetsbulmaforminput-horizontal ** | ..snippetsbulmaforminput horizontal
-bm-**..snippetsbulmaforminput-icon-drop-down** | ..snippetsbulmaforminput icon drop down
-bm-**..snippetsbulmaforminput-icons** | ..snippetsbulmaforminput icons
-bm-**..snippetsbulmaforminput-size** | ..snippetsbulmaforminput size
-bm-**..snippetsbulmaforminput-space** | ..snippetsbulmaforminput space
-bm-**..snippetsbulmaforminput-static** | ..snippetsbulmaforminput static
-bm-**..snippetsbulmaforminput-vertical** | ..snippetsbulmaforminput vertical
-
-#### ..snippetsbulmaformradio
+#### Delete
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaformradio-default** | ..snippetsbulmaformradio default
+bm-**delete-combinations** | Delete combinations
+bm-**delete-default** | Delete default
+bm-**delete-sized** | Delete sized
 
-#### ..snippetsbulmaformselect
-
-Trigger | Description
---- | ---
-bm-**..snippetsbulmaformselect-default** | ..snippetsbulmaformselect default
-
-#### ..snippetsbulmaformtextarea
+#### Icon
 
 Trigger | Description
 --- | ---
-bm-**..snippetsbulmaformtextarea-default** | ..snippetsbulmaformtextarea default
+bm-**icon-colored** | Icon colored
+bm-**icon-default** | Icon default
+
+#### Image
+
+Trigger | Description
+--- | ---
+bm-**image-default** | Image default
+bm-**image-fixed-square-img** | Image fixed square img
+bm-**image-ratio-frame-img** | Image ratio frame img
+bm-**image-ratio-img** | Image ratio img
+bm-**image-retina-img** | Image retina img
+bm-**image-rounded-img** | Image rounded img
+
+#### List
+
+Trigger | Description
+--- | ---
+bm-**list-default** | List default
+
+#### Notification
+
+Trigger | Description
+--- | ---
+bm-**notification-colored-notification** | Notification colored notification
+bm-**notification-default** | Notification default
+bm-**notification-light-notification** | Notification light notification
+bm-**notification-space-noritifation** | Notification space noritifation
+
+#### Progress bar
+
+Trigger | Description
+--- | ---
+bm-**progress-bar-colored** | Progress bar colored
+bm-**progress-bar-default** | Progress bar default
+bm-**progress-bar-indeterminate** | Progress bar indeterminate
+bm-**progress-bar-sized** | Progress bar sized
+
+#### Table
+
+Trigger | Description
+--- | ---
+bm-**table-default** | Table default
+bm-**table-table-container** | Table table container
+
+#### Tags
+
+Trigger | Description
+--- | ---
+bm-**tags-attach-delete** | Tags attach delete
+bm-**tags-attach** | Tags attach
+bm-**tags-blog** | Tags blog
+bm-**tags-colored** | Tags colored
+bm-**tags-combined** | Tags combined
+bm-**tags-default** | Tags default
+bm-**tags-delete** | Tags delete
+bm-**tags-gather-attach** | Tags gather attach
+bm-**tags-group** | Tags group
+bm-**tags-light** | Tags light
+bm-**tags-rounded** | Tags rounded
+bm-**tags-sized** | Tags sized
+bm-**tags-spaced** | Tags spaced
+bm-**tags-subset-sized** | Tags subset sized
+
+#### Title
+
+Trigger | Description
+--- | ---
+bm-**title-combination** | Title combination
+bm-**title-default** | Title default
+bm-**title-sized** | Title sized
+bm-**title-spaced** | Title spaced
+
+#### Form
+
+Trigger | Description
+--- | ---
+bm-**form-checkbox** | Form checkbox
+bm-**form-radio** | Form radio
+
+#### File
+
+Trigger | Description
+--- | ---
+bm-**file-alignment** | File alignment
+bm-**file-colored** | File colored
+bm-**file-default** | File default
+bm-**file-javascript** | File javascript
+bm-**file-sized** | File sized
+
+#### Input
+
+Trigger | Description
+--- | ---
+bm-**input-addon** | Input addon
+bm-**input-addons-alignment** | Input addons alignment
+bm-**input-colored-btn** | Input colored btn
+bm-**input-default** | Input default
+bm-**input-disabled** | Input disabled
+bm-**input-drop-down** | Input drop down
+bm-**input-expanded-item-group** | Input expanded item group
+bm-**input-expanded** | Input expanded
+bm-**input-group-alignment** | Input group alignment
+bm-**input-group** | Input group
+bm-**input-grouped-multiline** | Input grouped multiline
+bm-**input-help-text** | Input help text
+bm-**input-horizontal ** | Input horizontal
+bm-**input-icon-drop-down** | Input icon drop down
+bm-**input-icons** | Input icons
+bm-**input-sized** | Input sized
+bm-**input-space** | Input space
+bm-**input-static** | Input static
+bm-**input-vertical** | Input vertical
+
+#### Select
+
+Trigger | Description
+--- | ---
+bm-**select-colored** | Select colored
+bm-**select-default** | Select default
+bm-**select-icons** | Select icons
+bm-**select-multiple** | Select multiple
+bm-**select-rounded** | Select rounded
+bm-**select-sized** | Select sized
+bm-**select-states** | Select states
+
+#### Textarea
+
+Trigger | Description
+--- | ---
+bm-**textarea-colored** | Textarea colored
+bm-**textarea-default** | Textarea default
+bm-**textarea-options** | Textarea options
+bm-**textarea-sized** | Textarea sized
+bm-**textarea-states** | Textarea states
+
+#### Container
+
+Trigger | Description
+--- | ---
+bm-**container-breakpoint** | Container breakpoint
+bm-**container-container-fluid** | Container container fluid
+bm-**container-container** | Container container
+
+#### Layout
+
+Trigger | Description
+--- | ---
+bm-**layout-footer** | Layout footer
+
+#### Hero
+
+Trigger | Description
+--- | ---
+bm-**hero-bold** | Hero bold
+bm-**hero-colored** | Hero colored
+bm-**hero-default** | Hero default
+bm-**hero-fullheight-nav** | Hero fullheight nav
+bm-**hero-sized** | Hero sized
+
+#### Level
+
+Trigger | Description
+--- | ---
+bm-**level-centered-nav** | Level centered nav
+bm-**level-default** | Level default
+bm-**level-vertical-mobile** | Level vertical mobile
+
+#### Media
+
+Trigger | Description
+--- | ---
+bm-**media-comment** | Media comment
+bm-**media-default** | Media default
+bm-**media-nesting** | Media nesting
+
+#### Section
+
+Trigger | Description
+--- | ---
+bm-**section-default** | Section default
+bm-**section-sized** | Section sized
+
+#### Tiles
+
+Trigger | Description
+--- | ---
+bm-**tiles-default** | Tiles default
+bm-**tiles-multiple** | Tiles multiple
+bm-**tiles-tile** | Tiles tile
 
 
 ### Bootstrap 4 snippets
@@ -340,307 +416,307 @@ Trigger | Description
 --- | ---
 b4-**$** | Bootstrap master template
 
-#### ..snippetsbootstrapcomponentsalert
+#### Alert
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsalert-additional-content** | ..snippetsbootstrapcomponentsalert additional content
-b4-**..snippetsbootstrapcomponentsalert-closable** | ..snippetsbootstrapcomponentsalert closable
-b4-**..snippetsbootstrapcomponentsalert-default** | ..snippetsbootstrapcomponentsalert default
-b4-**..snippetsbootstrapcomponentsalert-dismissible** | ..snippetsbootstrapcomponentsalert dismissible
-b4-**..snippetsbootstrapcomponentsalert-link** | ..snippetsbootstrapcomponentsalert link
+b4-**alert-additional-content** | Alert additional content
+b4-**alert-closable** | Alert closable
+b4-**alert-default** | Alert default
+b4-**alert-dismissible** | Alert dismissible
+b4-**alert-link** | Alert link
 
-#### ..snippetsbootstrapcomponentsbadge
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentsbadge-button** | ..snippetsbootstrapcomponentsbadge button
-b4-**..snippetsbootstrapcomponentsbadge-default** | ..snippetsbootstrapcomponentsbadge default
-b4-**..snippetsbootstrapcomponentsbadge-heading** | ..snippetsbootstrapcomponentsbadge heading
-b4-**..snippetsbootstrapcomponentsbadge-link** | ..snippetsbootstrapcomponentsbadge link
-b4-**..snippetsbootstrapcomponentsbadge-pill** | ..snippetsbootstrapcomponentsbadge pill
-
-#### ..snippetsbootstrapcomponentsbgroup
+#### Badge
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsbgroup-default** | ..snippetsbootstrapcomponentsbgroup default
-b4-**..snippetsbootstrapcomponentsbgroup-dropdown-vertical** | ..snippetsbootstrapcomponentsbgroup dropdown vertical
-b4-**..snippetsbootstrapcomponentsbgroup-dropdown** | ..snippetsbootstrapcomponentsbgroup dropdown
-b4-**..snippetsbootstrapcomponentsbgroup-size** | ..snippetsbootstrapcomponentsbgroup size
-b4-**..snippetsbootstrapcomponentsbgroup-toolbar** | ..snippetsbootstrapcomponentsbgroup toolbar
+b4-**badge-button** | Badge button
+b4-**badge-default** | Badge default
+b4-**badge-heading** | Badge heading
+b4-**badge-link** | Badge link
+b4-**badge-pill** | Badge pill
 
-#### ..snippetsbootstrapcomponentsbreadcrumb
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentsbreadcrumb-default** | ..snippetsbootstrapcomponentsbreadcrumb default
-b4-**..snippetsbootstrapcomponentsbreadcrumb-list** | ..snippetsbootstrapcomponentsbreadcrumb list
-
-#### ..snippetsbootstrapcomponentsbutton
+#### Bgroup
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsbutton-a** | ..snippetsbootstrapcomponentsbutton a
-b4-**..snippetsbootstrapcomponentsbutton-block** | ..snippetsbootstrapcomponentsbutton block
-b4-**..snippetsbootstrapcomponentsbutton-checkbox** | ..snippetsbootstrapcomponentsbutton checkbox
-b4-**..snippetsbootstrapcomponentsbutton-default** | ..snippetsbootstrapcomponentsbutton default
-b4-**..snippetsbootstrapcomponentsbutton-disabled-a** | ..snippetsbootstrapcomponentsbutton disabled a
-b4-**..snippetsbootstrapcomponentsbutton-input** | ..snippetsbootstrapcomponentsbutton input
-b4-**..snippetsbootstrapcomponentsbutton-outline** | ..snippetsbootstrapcomponentsbutton outline
-b4-**..snippetsbootstrapcomponentsbutton-radio** | ..snippetsbootstrapcomponentsbutton radio
-b4-**..snippetsbootstrapcomponentsbutton-sizes** | ..snippetsbootstrapcomponentsbutton sizes
-b4-**..snippetsbootstrapcomponentsbutton-toggle** | ..snippetsbootstrapcomponentsbutton toggle
+b4-**bgroup-default** | Bgroup default
+b4-**bgroup-dropdown-vertical** | Bgroup dropdown vertical
+b4-**bgroup-dropdown** | Bgroup dropdown
+b4-**bgroup-size** | Bgroup size
+b4-**bgroup-toolbar** | Bgroup toolbar
 
-#### ..snippetsbootstrapcomponentscard
+#### Breadcrumb
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentscard-align** | ..snippetsbootstrapcomponentscard align
-b4-**..snippetsbootstrapcomponentscard-background-custom** | ..snippetsbootstrapcomponentscard background custom
-b4-**..snippetsbootstrapcomponentscard-background** | ..snippetsbootstrapcomponentscard background
-b4-**..snippetsbootstrapcomponentscard-blockquote** | ..snippetsbootstrapcomponentscard blockquote
-b4-**..snippetsbootstrapcomponentscard-border** | ..snippetsbootstrapcomponentscard border
-b4-**..snippetsbootstrapcomponentscard-columns** | ..snippetsbootstrapcomponentscard columns
-b4-**..snippetsbootstrapcomponentscard-decks** | ..snippetsbootstrapcomponentscard decks
-b4-**..snippetsbootstrapcomponentscard-default** | ..snippetsbootstrapcomponentscard default
-b4-**..snippetsbootstrapcomponentscard-grid** | ..snippetsbootstrapcomponentscard grid
-b4-**..snippetsbootstrapcomponentscard-groups** | ..snippetsbootstrapcomponentscard groups
-b4-**..snippetsbootstrapcomponentscard-head-foot** | ..snippetsbootstrapcomponentscard head foot
-b4-**..snippetsbootstrapcomponentscard-links** | ..snippetsbootstrapcomponentscard links
-b4-**..snippetsbootstrapcomponentscard-list** | ..snippetsbootstrapcomponentscard list
-b4-**..snippetsbootstrapcomponentscard-overlay** | ..snippetsbootstrapcomponentscard overlay
-b4-**..snippetsbootstrapcomponentscard-pill-head** | ..snippetsbootstrapcomponentscard pill head
-b4-**..snippetsbootstrapcomponentscard-subtitle** | ..snippetsbootstrapcomponentscard subtitle
-b4-**..snippetsbootstrapcomponentscard-tab-head** | ..snippetsbootstrapcomponentscard tab head
+b4-**breadcrumb-default** | Breadcrumb default
+b4-**breadcrumb-list** | Breadcrumb list
 
-#### ..snippetsbootstrapcomponentscarousel
+#### Button
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentscarousel-caption** | ..snippetsbootstrapcomponentscarousel caption
-b4-**..snippetsbootstrapcomponentscarousel-default** | ..snippetsbootstrapcomponentscarousel default
+b4-**button-a** | Button a
+b4-**button-block** | Button block
+b4-**button-checkbox** | Button checkbox
+b4-**button-default** | Button default
+b4-**button-disabled-a** | Button disabled a
+b4-**button-input** | Button input
+b4-**button-outline** | Button outline
+b4-**button-radio** | Button radio
+b4-**button-sizes** | Button sizes
+b4-**button-toggle** | Button toggle
 
-#### ..snippetsbootstrapcomponentscollapse
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentscollapse-accordion** | ..snippetsbootstrapcomponentscollapse accordion
-b4-**..snippetsbootstrapcomponentscollapse-button** | ..snippetsbootstrapcomponentscollapse button
-b4-**..snippetsbootstrapcomponentscollapse-default** | ..snippetsbootstrapcomponentscollapse default
-
-#### ..snippetsbootstrapcomponentsdropdown
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentsdropdown-alignment** | ..snippetsbootstrapcomponentsdropdown alignment
-b4-**..snippetsbootstrapcomponentsdropdown-anchor** | ..snippetsbootstrapcomponentsdropdown anchor
-b4-**..snippetsbootstrapcomponentsdropdown-button** | ..snippetsbootstrapcomponentsdropdown button
-b4-**..snippetsbootstrapcomponentsdropdown-colored** | ..snippetsbootstrapcomponentsdropdown colored
-b4-**..snippetsbootstrapcomponentsdropdown-default** | ..snippetsbootstrapcomponentsdropdown default
-b4-**..snippetsbootstrapcomponentsdropdown-sized** | ..snippetsbootstrapcomponentsdropdown sized
-b4-**..snippetsbootstrapcomponentsdropdown-split** | ..snippetsbootstrapcomponentsdropdown split
-b4-**..snippetsbootstrapcomponentsdropdown-up-split** | ..snippetsbootstrapcomponentsdropdown up split
-b4-**..snippetsbootstrapcomponentsdropdown-up** | ..snippetsbootstrapcomponentsdropdown up
-
-#### ..snippetsbootstrapcomponentsform
+#### Card
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsform-checkbox-custom** | ..snippetsbootstrapcomponentsform checkbox custom
-b4-**..snippetsbootstrapcomponentsform-checkbox-inline** | ..snippetsbootstrapcomponentsform checkbox inline
-b4-**..snippetsbootstrapcomponentsform-checkbox-nolabel** | ..snippetsbootstrapcomponentsform checkbox nolabel
-b4-**..snippetsbootstrapcomponentsform-checkbox** | ..snippetsbootstrapcomponentsform checkbox
-b4-**..snippetsbootstrapcomponentsform-email** | ..snippetsbootstrapcomponentsform email
-b4-**..snippetsbootstrapcomponentsform-file-custom** | ..snippetsbootstrapcomponentsform file custom
-b4-**..snippetsbootstrapcomponentsform-file** | ..snippetsbootstrapcomponentsform file
-b4-**..snippetsbootstrapcomponentsform-grid** | ..snippetsbootstrapcomponentsform grid
-b4-**..snippetsbootstrapcomponentsform-group-text** | ..snippetsbootstrapcomponentsform group text
-b4-**..snippetsbootstrapcomponentsform-group** | ..snippetsbootstrapcomponentsform group
-b4-**..snippetsbootstrapcomponentsform-help-text-inline** | ..snippetsbootstrapcomponentsform help text inline
-b4-**..snippetsbootstrapcomponentsform-help-text** | ..snippetsbootstrapcomponentsform help text
-b4-**..snippetsbootstrapcomponentsform-hidden** | ..snippetsbootstrapcomponentsform hidden
-b4-**..snippetsbootstrapcomponentsform-inline** | ..snippetsbootstrapcomponentsform inline
-b4-**..snippetsbootstrapcomponentsform-input-sizing** | ..snippetsbootstrapcomponentsform input sizing
-b4-**..snippetsbootstrapcomponentsform-input-text** | ..snippetsbootstrapcomponentsform input text
-b4-**..snippetsbootstrapcomponentsform-input** | ..snippetsbootstrapcomponentsform input
-b4-**..snippetsbootstrapcomponentsform-multi-select-custom** | ..snippetsbootstrapcomponentsform multi select custom
-b4-**..snippetsbootstrapcomponentsform-multi-select** | ..snippetsbootstrapcomponentsform multi select
-b4-**..snippetsbootstrapcomponentsform-multil-select-sizing** | ..snippetsbootstrapcomponentsform multil select sizing
-b4-**..snippetsbootstrapcomponentsform-password** | ..snippetsbootstrapcomponentsform password
-b4-**..snippetsbootstrapcomponentsform-radio-custom** | ..snippetsbootstrapcomponentsform radio custom
-b4-**..snippetsbootstrapcomponentsform-radio-inline** | ..snippetsbootstrapcomponentsform radio inline
-b4-**..snippetsbootstrapcomponentsform-radio-nolabel** | ..snippetsbootstrapcomponentsform radio nolabel
-b4-**..snippetsbootstrapcomponentsform-radio** | ..snippetsbootstrapcomponentsform radio
-b4-**..snippetsbootstrapcomponentsform-reset** | ..snippetsbootstrapcomponentsform reset
-b4-**..snippetsbootstrapcomponentsform-select-custom** | ..snippetsbootstrapcomponentsform select custom
-b4-**..snippetsbootstrapcomponentsform-select-sizing** | ..snippetsbootstrapcomponentsform select sizing
-b4-**..snippetsbootstrapcomponentsform-select** | ..snippetsbootstrapcomponentsform select
-b4-**..snippetsbootstrapcomponentsform-submit** | ..snippetsbootstrapcomponentsform submit
-b4-**..snippetsbootstrapcomponentsform-textarea** | ..snippetsbootstrapcomponentsform textarea
-b4-**..snippetsbootstrapcomponentsform-validation** | ..snippetsbootstrapcomponentsform validation
+b4-**card-align** | Card align
+b4-**card-background-custom** | Card background custom
+b4-**card-background** | Card background
+b4-**card-blockquote** | Card blockquote
+b4-**card-border** | Card border
+b4-**card-columns** | Card columns
+b4-**card-decks** | Card decks
+b4-**card-default** | Card default
+b4-**card-grid** | Card grid
+b4-**card-groups** | Card groups
+b4-**card-head-foot** | Card head foot
+b4-**card-links** | Card links
+b4-**card-list** | Card list
+b4-**card-overlay** | Card overlay
+b4-**card-pill-head** | Card pill head
+b4-**card-subtitle** | Card subtitle
+b4-**card-tab-head** | Card tab head
 
-#### ..snippetsbootstrapcomponentsigroup
+#### Carousel
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsigroup-button** | ..snippetsbootstrapcomponentsigroup button
-b4-**..snippetsbootstrapcomponentsigroup-checkbox-radio** | ..snippetsbootstrapcomponentsigroup checkbox radio
-b4-**..snippetsbootstrapcomponentsigroup-dropdown-segmented** | ..snippetsbootstrapcomponentsigroup dropdown segmented
-b4-**..snippetsbootstrapcomponentsigroup-dropdown** | ..snippetsbootstrapcomponentsigroup dropdown
-b4-**..snippetsbootstrapcomponentsigroup-size** | ..snippetsbootstrapcomponentsigroup size
-b4-**..snippetsbootstrapcomponentsigroup-text-both** | ..snippetsbootstrapcomponentsigroup text both
-b4-**..snippetsbootstrapcomponentsigroup-text-prefix** | ..snippetsbootstrapcomponentsigroup text prefix
-b4-**..snippetsbootstrapcomponentsigroup-text-sufix** | ..snippetsbootstrapcomponentsigroup text sufix
+b4-**carousel-caption** | Carousel caption
+b4-**carousel-default** | Carousel default
 
-#### ..snippetsbootstrapcomponentsjumbotron
+#### Collapse
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsjumbotron-default** | ..snippetsbootstrapcomponentsjumbotron default
-b4-**..snippetsbootstrapcomponentsjumbotron-fluid** | ..snippetsbootstrapcomponentsjumbotron fluid
+b4-**collapse-accordion** | Collapse accordion
+b4-**collapse-button** | Collapse button
+b4-**collapse-default** | Collapse default
 
-#### ..snippetsbootstrapcomponentslist
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentslist-a** | ..snippetsbootstrapcomponentslist a
-b4-**..snippetsbootstrapcomponentslist-badge** | ..snippetsbootstrapcomponentslist badge
-b4-**..snippetsbootstrapcomponentslist-button** | ..snippetsbootstrapcomponentslist button
-b4-**..snippetsbootstrapcomponentslist-colors** | ..snippetsbootstrapcomponentslist colors
-b4-**..snippetsbootstrapcomponentslist-custom** | ..snippetsbootstrapcomponentslist custom
-b4-**..snippetsbootstrapcomponentslist-default** | ..snippetsbootstrapcomponentslist default
-
-#### ..snippetsbootstrapcomponentsmodal
+#### Dropdown
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsmodal-customize** | ..snippetsbootstrapcomponentsmodal customize
-b4-**..snippetsbootstrapcomponentsmodal-default** | ..snippetsbootstrapcomponentsmodal default
-b4-**..snippetsbootstrapcomponentsmodal-grid** | ..snippetsbootstrapcomponentsmodal grid
-b4-**..snippetsbootstrapcomponentsmodal-sizes** | ..snippetsbootstrapcomponentsmodal sizes
+b4-**dropdown-alignment** | Dropdown alignment
+b4-**dropdown-anchor** | Dropdown anchor
+b4-**dropdown-button** | Dropdown button
+b4-**dropdown-colored** | Dropdown colored
+b4-**dropdown-default** | Dropdown default
+b4-**dropdown-sized** | Dropdown sized
+b4-**dropdown-split** | Dropdown split
+b4-**dropdown-up-split** | Dropdown up split
+b4-**dropdown-up** | Dropdown up
 
-#### ..snippetsbootstrapcomponentsnavbar
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentsnavbar-background-color** | ..snippetsbootstrapcomponentsnavbar background color
-b4-**..snippetsbootstrapcomponentsnavbar-background** | ..snippetsbootstrapcomponentsnavbar background
-b4-**..snippetsbootstrapcomponentsnavbar-default** | ..snippetsbootstrapcomponentsnavbar default
-b4-**..snippetsbootstrapcomponentsnavbar-minimal-a** | ..snippetsbootstrapcomponentsnavbar minimal a
-b4-**..snippetsbootstrapcomponentsnavbar-minimal-ul** | ..snippetsbootstrapcomponentsnavbar minimal ul
-b4-**..snippetsbootstrapcomponentsnavbar-non-responsive** | ..snippetsbootstrapcomponentsnavbar non responsive
-b4-**..snippetsbootstrapcomponentsnavbar-placement** | ..snippetsbootstrapcomponentsnavbar placement
-
-#### ..snippetsbootstrapcomponentsnav
+#### Form
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentsnav-a** | ..snippetsbootstrapcomponentsnav a
-b4-**..snippetsbootstrapcomponentsnav-complete** | ..snippetsbootstrapcomponentsnav complete
-b4-**..snippetsbootstrapcomponentsnav-tabs-pills-a-variation** | ..snippetsbootstrapcomponentsnav tabs pills a variation
-b4-**..snippetsbootstrapcomponentsnav-tabs-pills-dropdown** | ..snippetsbootstrapcomponentsnav tabs pills dropdown
-b4-**..snippetsbootstrapcomponentsnav-tabs-pills-ul-variation** | ..snippetsbootstrapcomponentsnav tabs pills ul variation
-b4-**..snippetsbootstrapcomponentsnav-ul** | ..snippetsbootstrapcomponentsnav ul
+b4-**form-checkbox-custom** | Form checkbox custom
+b4-**form-checkbox-inline** | Form checkbox inline
+b4-**form-checkbox-nolabel** | Form checkbox nolabel
+b4-**form-checkbox** | Form checkbox
+b4-**form-email** | Form email
+b4-**form-file-custom** | Form file custom
+b4-**form-file** | Form file
+b4-**form-grid** | Form grid
+b4-**form-group-text** | Form group text
+b4-**form-group** | Form group
+b4-**form-help-text-inline** | Form help text inline
+b4-**form-help-text** | Form help text
+b4-**form-hidden** | Form hidden
+b4-**form-inline** | Form inline
+b4-**form-input-sizing** | Form input sizing
+b4-**form-input-text** | Form input text
+b4-**form-input** | Form input
+b4-**form-multi-select-custom** | Form multi select custom
+b4-**form-multi-select** | Form multi select
+b4-**form-multil-select-sizing** | Form multil select sizing
+b4-**form-password** | Form password
+b4-**form-radio-custom** | Form radio custom
+b4-**form-radio-inline** | Form radio inline
+b4-**form-radio-nolabel** | Form radio nolabel
+b4-**form-radio** | Form radio
+b4-**form-reset** | Form reset
+b4-**form-select-custom** | Form select custom
+b4-**form-select-sizing** | Form select sizing
+b4-**form-select** | Form select
+b4-**form-submit** | Form submit
+b4-**form-textarea** | Form textarea
+b4-**form-validation** | Form validation
 
-#### ..snippetsbootstrapcomponentspagination
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentspagination-alignment** | ..snippetsbootstrapcomponentspagination alignment
-b4-**..snippetsbootstrapcomponentspagination-default** | ..snippetsbootstrapcomponentspagination default
-b4-**..snippetsbootstrapcomponentspagination-sized** | ..snippetsbootstrapcomponentspagination sized
-
-#### ..snippetsbootstrapcomponentspopover
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentspopover-default** | ..snippetsbootstrapcomponentspopover default
-b4-**..snippetsbootstrapcomponentspopover-direction** | ..snippetsbootstrapcomponentspopover direction
-b4-**..snippetsbootstrapcomponentspopover-dismissable** | ..snippetsbootstrapcomponentspopover dismissable
-
-#### ..snippetsbootstrapcomponentsprogress
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentsprogress-colored** | ..snippetsbootstrapcomponentsprogress colored
-b4-**..snippetsbootstrapcomponentsprogress-default** | ..snippetsbootstrapcomponentsprogress default
-b4-**..snippetsbootstrapcomponentsprogress-ie9** | ..snippetsbootstrapcomponentsprogress ie9
-b4-**..snippetsbootstrapcomponentsprogress-striped** | ..snippetsbootstrapcomponentsprogress striped
-
-#### ..snippetsbootstrapcomponentsscrollspy
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcomponentsscrollspy-default** | ..snippetsbootstrapcomponentsscrollspy default
-
-#### ..snippetsbootstrapcomponentstooltip
+#### Igroup
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcomponentstooltip-default** | ..snippetsbootstrapcomponentstooltip default
+b4-**igroup-button** | Igroup button
+b4-**igroup-checkbox-radio** | Igroup checkbox radio
+b4-**igroup-dropdown-segmented** | Igroup dropdown segmented
+b4-**igroup-dropdown** | Igroup dropdown
+b4-**igroup-size** | Igroup size
+b4-**igroup-text-both** | Igroup text both
+b4-**igroup-text-prefix** | Igroup text prefix
+b4-**igroup-text-sufix** | Igroup text sufix
 
-#### ..snippetsbootstrapcontentfigure
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcontentfigure-default** | ..snippetsbootstrapcontentfigure default
-
-#### ..snippetsbootstrapcontentimage
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcontentimage-default** | ..snippetsbootstrapcontentimage default
-
-#### ..snippetsbootstrapcontenttable
+#### Jumbotron
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstrapcontenttable-default** | ..snippetsbootstrapcontenttable default
-b4-**..snippetsbootstrapcontenttable-special** | ..snippetsbootstrapcontenttable special
+b4-**jumbotron-default** | Jumbotron default
+b4-**jumbotron-fluid** | Jumbotron fluid
 
-#### ..snippetsbootstrapcontenttypography
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstrapcontenttypography-blockquote-reverse** | ..snippetsbootstrapcontenttypography blockquote reverse
-b4-**..snippetsbootstrapcontenttypography-blockquote** | ..snippetsbootstrapcontenttypography blockquote
-b4-**..snippetsbootstrapcontenttypography-description-list** | ..snippetsbootstrapcontenttypography description list
-b4-**..snippetsbootstrapcontenttypography-display-heading** | ..snippetsbootstrapcontenttypography display heading
-b4-**..snippetsbootstrapcontenttypography-lead** | ..snippetsbootstrapcontenttypography lead
-b4-**..snippetsbootstrapcontenttypography-list-inline** | ..snippetsbootstrapcontenttypography list inline
-b4-**..snippetsbootstrapcontenttypography-list-unstyled** | ..snippetsbootstrapcontenttypography list unstyled
-b4-**..snippetsbootstrapcontenttypography-muted-text** | ..snippetsbootstrapcontenttypography muted text
-
-#### ..snippetsbootstraplayoutgrid
+#### List
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstraplayoutgrid-col** | ..snippetsbootstraplayoutgrid col
-b4-**..snippetsbootstraplayoutgrid-container-fluid** | ..snippetsbootstraplayoutgrid container fluid
-b4-**..snippetsbootstraplayoutgrid-container** | ..snippetsbootstraplayoutgrid container
-b4-**..snippetsbootstraplayoutgrid-default** | ..snippetsbootstraplayoutgrid default
-b4-**..snippetsbootstraplayoutgrid-row** | ..snippetsbootstraplayoutgrid row
+b4-**list-a** | List a
+b4-**list-badge** | List badge
+b4-**list-button** | List button
+b4-**list-colors** | List colors
+b4-**list-custom** | List custom
+b4-**list-default** | List default
 
-#### ..snippetsbootstraplayoutmedia
-
-Trigger | Description
---- | ---
-b4-**..snippetsbootstraplayoutmedia-bottom** | ..snippetsbootstraplayoutmedia bottom
-b4-**..snippetsbootstraplayoutmedia-default** | ..snippetsbootstraplayoutmedia default
-b4-**..snippetsbootstraplayoutmedia-list** | ..snippetsbootstraplayoutmedia list
-b4-**..snippetsbootstraplayoutmedia-middle** | ..snippetsbootstraplayoutmedia middle
-b4-**..snippetsbootstraplayoutmedia-nesting** | ..snippetsbootstraplayoutmedia nesting
-b4-**..snippetsbootstraplayoutmedia-right** | ..snippetsbootstraplayoutmedia right
-b4-**..snippetsbootstraplayoutmedia-top** | ..snippetsbootstraplayoutmedia top
-
-#### ..snippetsbootstraplayoutresponsive
+#### Modal
 
 Trigger | Description
 --- | ---
-b4-**..snippetsbootstraplayoutresponsive-hide-down** | ..snippetsbootstraplayoutresponsive hide down
-b4-**..snippetsbootstraplayoutresponsive-hide-up** | ..snippetsbootstraplayoutresponsive hide up
-b4-**..snippetsbootstraplayoutresponsive-print-show** | ..snippetsbootstraplayoutresponsive print show
+b4-**modal-customize** | Modal customize
+b4-**modal-default** | Modal default
+b4-**modal-grid** | Modal grid
+b4-**modal-sizes** | Modal sizes
+
+#### Nav
+
+Trigger | Description
+--- | ---
+b4-**nav-a** | Nav a
+b4-**nav-complete** | Nav complete
+b4-**nav-tabs-pills-a-variation** | Nav tabs pills a variation
+b4-**nav-tabs-pills-dropdown** | Nav tabs pills dropdown
+b4-**nav-tabs-pills-ul-variation** | Nav tabs pills ul variation
+b4-**nav-ul** | Nav ul
+
+#### Navbar
+
+Trigger | Description
+--- | ---
+b4-**navbar-background-color** | Navbar background color
+b4-**navbar-background** | Navbar background
+b4-**navbar-default** | Navbar default
+b4-**navbar-minimal-a** | Navbar minimal a
+b4-**navbar-minimal-ul** | Navbar minimal ul
+b4-**navbar-non-responsive** | Navbar non responsive
+b4-**navbar-placement** | Navbar placement
+
+#### Pagination
+
+Trigger | Description
+--- | ---
+b4-**pagination-alignment** | Pagination alignment
+b4-**pagination-default** | Pagination default
+b4-**pagination-sized** | Pagination sized
+
+#### Popover
+
+Trigger | Description
+--- | ---
+b4-**popover-default** | Popover default
+b4-**popover-direction** | Popover direction
+b4-**popover-dismissable** | Popover dismissable
+
+#### Progress
+
+Trigger | Description
+--- | ---
+b4-**progress-colored** | Progress colored
+b4-**progress-default** | Progress default
+b4-**progress-ie9** | Progress ie9
+b4-**progress-striped** | Progress striped
+
+#### Scrollspy
+
+Trigger | Description
+--- | ---
+b4-**scrollspy-default** | Scrollspy default
+
+#### Tooltip
+
+Trigger | Description
+--- | ---
+b4-**tooltip-default** | Tooltip default
+
+#### Figure
+
+Trigger | Description
+--- | ---
+b4-**figure-default** | Figure default
+
+#### Image
+
+Trigger | Description
+--- | ---
+b4-**image-default** | Image default
+
+#### Table
+
+Trigger | Description
+--- | ---
+b4-**table-default** | Table default
+b4-**table-special** | Table special
+
+#### Typography
+
+Trigger | Description
+--- | ---
+b4-**typography-blockquote-reverse** | Typography blockquote reverse
+b4-**typography-blockquote** | Typography blockquote
+b4-**typography-description-list** | Typography description list
+b4-**typography-display-heading** | Typography display heading
+b4-**typography-lead** | Typography lead
+b4-**typography-list-inline** | Typography list inline
+b4-**typography-list-unstyled** | Typography list unstyled
+b4-**typography-muted-text** | Typography muted text
+
+#### Grid
+
+Trigger | Description
+--- | ---
+b4-**grid-col** | Grid col
+b4-**grid-container-fluid** | Grid container fluid
+b4-**grid-container** | Grid container
+b4-**grid-default** | Grid default
+b4-**grid-row** | Grid row
+
+#### Media
+
+Trigger | Description
+--- | ---
+b4-**media-bottom** | Media bottom
+b4-**media-default** | Media default
+b4-**media-list** | Media list
+b4-**media-middle** | Media middle
+b4-**media-nesting** | Media nesting
+b4-**media-right** | Media right
+b4-**media-top** | Media top
+
+#### Responsive
+
+Trigger | Description
+--- | ---
+b4-**responsive-hide-down** | Responsive hide down
+b4-**responsive-hide-up** | Responsive hide up
+b4-**responsive-print-show** | Responsive print show
 
 
 ### Font Awesome 4 icon snippets
@@ -1473,7 +1549,7 @@ fa5-**building** | Building
 fa5-**bullhorn** | bullhorn
 fa5-**bullseye** | Bullseye
 fa5-**burn** | Burn
-fa5-**buromobelexperte** | Büromöbel-Experte GmbH & Co. KG.
+fa5-**buromobelexperte** | BÃ¼romÃ¶bel-Experte GmbH & Co. KG.
 fa5-**bus** | Bus
 fa5-**bus-alt** | Bus Alt
 fa5-**business-time** | Business Time
@@ -2838,7 +2914,7 @@ fa5p-**bullseye** | Bullseye
 fa5p-**bullseye-arrow** | Bullseye Arrow
 fa5p-**bullseye-pointer** | Bullseye Pointer
 fa5p-**burn** | Burn
-fa5p-**buromobelexperte** | Büromöbel-Experte GmbH & Co. KG.
+fa5p-**buromobelexperte** | BÃ¼romÃ¶bel-Experte GmbH & Co. KG.
 fa5p-**bus** | Bus
 fa5p-**bus-alt** | Bus Alt
 fa5p-**bus-school** | Bus School

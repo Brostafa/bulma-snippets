@@ -1,6 +1,6 @@
 <idea-plugin version="2" url="https://github.com/1tontech/bootstrap4-snippets">
-    <id>in.thekalinga.snippet.intellij</id>
-    <name>Bootstrap 4, Font awesome 4, Font Awesome 5 Free &amp; Pro live templates/snippets</name>
+    <id>in.thekalinga.clone.snippet.intellij</id>
+    <name>BulmaCSS, Bootstrap 4, Font awesome 4, Font Awesome 5 Free &amp; Pro live templates/snippets</name>
     <version>@@@VERSION@@@</version>
     <vendor url="http://github.com/1tontech">1Ton Technologies</vendor>
 

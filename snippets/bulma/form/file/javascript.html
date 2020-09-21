@@ -1,0 +1,10 @@
+<script>
+	const fileInput = document.querySelector('${1:.file input[type=file]}');
+
+	fileInput.onchange = () => {
+		if (fileInput.files.length > 0) {
+			const fileName = document.querySelector('${2:.file .file-name}');
+			fileName.textContent = fileInput.files[0].name;
+		}
+	}
+</script>
