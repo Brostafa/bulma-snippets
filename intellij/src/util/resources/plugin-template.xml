@@ -1,18 +1,14 @@
 <idea-plugin version="2" url="https://github.com/1tontech/bootstrap4-snippets">
-    <id>in.thekalinga.clone.snippet.intellij</id>
+    <id>in.bulma.snippet.intellij</id>
     <name>BulmaCSS, Bootstrap 4, Font awesome 4, Font Awesome 5 Free &amp; Pro live templates/snippets</name>
     <version>@@@VERSION@@@</version>
     <vendor url="http://github.com/1tontech">1Ton Technologies</vendor>
 
     <description><![CDATA[
-      <h2>Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro live templates/snippets</h2>
+      <h2>BulmaCSS, Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro live templates/snippets</h2>
       <img width="1200" height="860" src="https://raw.githubusercontent.com/1tontech/bootstrap4-snippets/intellij-@@@VERSION@@@/intellij/help.gif"/>
       <br />
-      <p>Documentation can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/intellij">here</a></p>
-      <br />
-      <p>Release notes can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/intellij/CHANGELOG.md">here</a></p>
-      <br />
-      <p>Have a problem, raise an issue <a href="https://github.com/1tontech/bootstrap4-snippets/issues">here</a></p>
+      <p>Documentation can be found <a href="https://github.com/Brostafa/bulma-snippets/blob/master/intellij/README.md">here</a></p>
       <br />
       <p>
       You can find my personnel blog at <a href="https://thekalinga.in">https://thekalinga.in</a></p>
