@@ -129,6 +129,9 @@ final class Util {
             String fileBaseName = snippetResource.name.take(snippetResource.name.lastIndexOf('.'))
 
             templateStr = contentUntouched
+            if (fileParent == 'breadcrumb' && fileBaseName == 'icon') {
+                println "Regenerated snippets. Saved to ${contentUntouched}"
+            }
 
             triggerPattern = fileBaseName != '$' ? "bm-${fileParent}-${fileBaseName}" : 'bm-$'
             helpMsg = fileBaseName != '$' ? "${fileParent} ${fileBaseName}".replace(/-/, ' ') : 'Bulma master template'
